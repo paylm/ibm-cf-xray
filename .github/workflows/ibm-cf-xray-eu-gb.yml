@@ -1,4 +1,4 @@
-name: IBM Cloud Foundry - Xrayeu
+name: IBM Cloud Foundry - Xray - eu-gb
 
 env:
   IBM_CF_API: https://api.eu-gb.cf.cloud.ibm.com
@@ -8,10 +8,10 @@ on:
   workflow_dispatch:
   #repository_dispatch:
   schedule:
-    - cron:22 21 * * 6
+    - cron: 22 21 * * 6
 
 jobs:
-  deploy_again:
+  deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     env:
