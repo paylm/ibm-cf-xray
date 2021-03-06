@@ -6,7 +6,7 @@ env:
 
 on:
   workflow_dispatch:
-  repository_dispatch:
+  #repository_dispatch:
   schedule:
     - cron: 42 21 * * 6
 
