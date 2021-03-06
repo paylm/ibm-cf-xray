@@ -1,4 +1,4 @@
-name: IBM Cloud Foundry - Xray - eu-gb
+name: IBM Cloud Foundry - Xrayeu
 
 env:
   IBM_CF_API: https://api.eu-gb.cf.cloud.ibm.com
