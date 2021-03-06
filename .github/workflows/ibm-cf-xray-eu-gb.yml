@@ -11,7 +11,7 @@ on:
     - cron:22 21 * * 6
 
 jobs:
-  deploy:
+  deploy_again:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     env:
