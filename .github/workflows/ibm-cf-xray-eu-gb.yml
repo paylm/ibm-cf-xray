@@ -63,7 +63,7 @@ jobs:
           "dns": {
             "servers": [
               {
-                "address": "https+local://1.0.0.1/dns-query",
+                "address": "https+local://dns.google/dns-query",
                 "port": 443
               }
             ]
@@ -111,7 +111,7 @@ jobs:
           "dns": {
             "servers": [
               {
-                "address": "https+local://1.0.0.1/dns-query",
+                "address": "https+local://dns.google/dns-query",
                 "port": 443
               }
             ]
